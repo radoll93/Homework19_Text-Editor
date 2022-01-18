@@ -32,7 +32,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 const cacheName = 'texteditor-cache';
 
 const matchCallback = ({ request }) => {
-  console.log(request);
+
   return (
     // CSS
     request.destination === 'style' ||
