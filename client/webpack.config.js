@@ -33,8 +33,8 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'Text Editor',
-        short_name: 'Text Editor',
-        description: 'Text edited in shall',
+        short_name: 'J.A.T.E',
+        description: 'Take notes with JavaScript syntax',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
@@ -51,6 +51,7 @@ module.exports = () => {
     ],
 
     module: {
+      // CSS loaders
       rules: [
         {
           test: /\.css$/i,
